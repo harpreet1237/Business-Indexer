@@ -11,7 +11,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="685.0" style="-fx-background-color: #F0F8FF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeeroom.EmployeeRoomViewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="685.0" style="-fx-background-color: #F0F8FF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeeroom.EmployeeRoomViewController">
    <children>
       <Label prefHeight="38.0" prefWidth="600.0" text="                Employee's Room">
          <font>
@@ -24,7 +24,7 @@
          </font>
       </Label>
       <Polygon fill="#dadfe4" layoutX="51.0" layoutY="87.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
-      <Polygon fill="#bec5cc" layoutX="52.0" layoutY="157.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#bec5cc" layoutX="51.0" layoutY="162.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
       <Polygon fill="#747c84" layoutX="52.0" layoutY="218.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
       <Label layoutX="86.0" layoutY="149.0" text="Contact Number">
          <font>
@@ -54,12 +54,12 @@
       </Label>
       <ComboBox fx:id="comboExp" editable="true" layoutX="370.0" layoutY="302.0" prefHeight="26.0" prefWidth="95.0" />
       <ListView fx:id="listSps" layoutX="84.0" layoutY="379.0" onMouseClicked="#doShowList" prefHeight="200.0" prefWidth="141.0" />
-      <Label layoutX="86.0" layoutY="341.0" text="Speciallist">
+      <Label layoutX="85.0" layoutY="353.0" text="Specialist">
          <font>
             <Font name="Mongolian Baiti" size="21.0" />
          </font>
       </Label>
-      <Polygon fill="#010e1b" layoutX="50.0" layoutY="349.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#010e1b" layoutX="51.0" layoutY="361.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
       <Label layoutX="374.0" layoutY="351.0" text="Refferred By">
          <font>
             <Font name="Mongolian Baiti" size="21.0" />
@@ -71,7 +71,7 @@
             <Font name="Mongolian Baiti" size="21.0" />
          </font>
       </Label>
-      <TextField fx:id="txtSD" layoutX="369.0" layoutY="459.0" prefHeight="26.0" prefWidth="214.0" />
+      <TextField fx:id="txtSD" layoutX="369.0" layoutY="459.0" prefHeight="75.0" prefWidth="242.0" />
       <Polygon fill="#bcc5cf" layoutX="292.0" layoutY="447.0" points="49.999969482421875, 13.79998779296875, 49.999969482421875, 33.79998779296875, 63.999969482421875, 23.4000244140625" stroke="BLACK" strokeType="INSIDE" />
       <Polygon fill="#bcc5cf" layoutX="277.0" layoutY="447.0" points="49.999969482421875, 13.79998779296875, 49.999969482421875, 33.79998779296875, 63.999969482421875, 23.4000244140625" stroke="BLACK" strokeType="INSIDE" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4dfea" height="190.0" layoutX="443.0" layoutY="71.0" stroke="BLACK" strokeType="INSIDE" width="194.0" />
@@ -99,5 +99,7 @@
             <Font size="13.0" />
          </font>
       </Button>
+      <Polygon fill="#010e1b" layoutX="343.0" layoutY="286.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="#010e1b" layoutX="342.0" layoutY="361.0" points="-5.20001220703125, 13.800003051757812, 16.4000244140625, 13.800003051757812, 6.0, -6.1999969482421875" stroke="BLACK" strokeType="INSIDE" />
    </children>
 </AnchorPane>

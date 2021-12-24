@@ -187,7 +187,8 @@ public class CustomerMeasurementViewController {
 
 	@FXML // This method is called by the FXMLLoader when initialization is complete
 	void initialize() {
-		String dresses[] = { "Salwar suit", "sharara", "pajami suit", "kurta pajama", "coat pent" };
+		String dresses[] ={ "Salwar suit", "sharara", "pajami suit", "kurta pajama", "coat pent", "plazo", "lehenge",
+				"gharara", "skirts", "leggings", "lehenga choli", "patiala suit", "jackets" };;
 		comboDA.getItems().addAll(dresses);
 		con = DataBaseConnector.getConnection();
 		doFillCombo();
