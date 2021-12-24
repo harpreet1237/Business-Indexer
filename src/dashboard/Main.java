@@ -13,7 +13,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			Parent root=FXMLLoader.load(getClass().getResource("DashBoarddViewww.fxml")); 
-			Scene scene = new Scene(root,750,600);
+			Scene scene = new Scene(root,660,700);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 			

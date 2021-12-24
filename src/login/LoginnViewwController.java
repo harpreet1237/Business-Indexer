@@ -1,7 +1,7 @@
 /**
  * Sample Skeleton for 'LoginnVieww.fxml' Controller Class
  */
-
+//Login Updated
 package login;
 
 import java.net.URL;
@@ -18,7 +18,8 @@ import javafx.scene.control.PasswordField;
 import javafx.stage.Stage;
 
 public class LoginnViewwController {
-
+	
+	String username="harpreet1237",pwd="1234";
     @FXML // ResourceBundle that was given to the FXMLLoader
     private ResourceBundle resources;
 
@@ -30,6 +31,8 @@ public class LoginnViewwController {
 
     @FXML
     private PasswordField pass1;
+    
+   
 
    
     @FXML
@@ -39,10 +42,9 @@ public class LoginnViewwController {
     		String str1=pass1.getText();
     		System.out.println(str+ "  "+str1);
     	
-    	if(str.matches("tailor") && str1.matches("hello"))
+    	if(str.matches(username) && str1.matches(pwd))
     	{
     	try { 
-    		
     		Parent root=FXMLLoader.load(getClass().getClassLoader().getResource("dashboard/DashBoarddViewww.fxml")); 
     		Scene scene = new Scene(root);
     		//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
@@ -56,14 +58,14 @@ public class LoginnViewwController {
             }
     	}else {
     		
-    		showMsg("Wrong Information");
+    		showMsg("Invalid UserName or Password.");
     	}
             }
     
     void showMsg(String msg)
     {
     	Alert alert=new Alert(AlertType.ERROR);
-    	alert.setTitle("Its Result");
+    	alert.setTitle("Log In");
     	alert.setContentText(msg);
     	alert.show();
     }
@@ -71,6 +73,5 @@ public class LoginnViewwController {
     @FXML // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
         
-
     }
 }

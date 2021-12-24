@@ -8,16 +8,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="650.0" minWidth="618.0" prefHeight="650.0" prefWidth="618.0" style="-fx-background-color: #A9A9A9;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.DashBoarddViewwwController">
+<AnchorPane minHeight="650.0" minWidth="618.0" prefHeight="702.0" prefWidth="618.0" style="-fx-background-color: #A9A9A9;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.DashBoarddViewwwController">
    <children>
       <ImageView fitHeight="132.0" fitWidth="138.0" layoutX="25.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/customer%20990.png" />
+            <Image url="@../../images/DashboardImages/CustomerPanel.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="132.0" fitWidth="116.0" layoutX="246.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/CustomerMeasure.png" />
+            <Image url="@../../images/DashboardImages/Measurement.png" />
          </image>
       </ImageView>
       <Button layoutX="25.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#doOpenCustomerPanel" prefHeight="26.0" prefWidth="122.0" text="Customer Panel">
@@ -32,7 +32,7 @@
       </Button>
       <ImageView fitHeight="122.0" fitWidth="138.0" layoutX="22.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/dilevery%20dfgdfsgdfgd.png" />
+            <Image url="@../../images/DashboardImages/DeliveryPanel.png" />
          </image>
       </ImageView>
       <Button layoutX="22.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#doDelivery" prefHeight="26.0" prefWidth="129.0" text="Delivery Panel">
@@ -42,7 +42,7 @@
       </Button>
       <ImageView fitHeight="117.0" fitWidth="129.0" layoutX="239.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/images%20(2).jfif" />
+            <Image url="@../../images/DashboardImages/employeePanel.jpeg" />
          </image>
       </ImageView>
       <Button layoutX="237.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#doOpenEmployeesPanel" prefHeight="26.0" prefWidth="138.0" text="Employees Panel">
@@ -60,7 +60,7 @@
       </Label>
       <ImageView fitHeight="132.0" fitWidth="129.0" layoutX="461.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/images%20(3).jfif" />
+            <Image url="@../../images/DashboardImages/CustomerData.jpeg" />
          </image>
       </ImageView>
       <Button layoutX="457.0" layoutY="217.0" mnemonicParsing="false" onMouseClicked="#doOpenCustomerDataTable" prefHeight="26.0" prefWidth="122.0" text="Customers Data">
@@ -70,7 +70,7 @@
       </Button>
       <ImageView fitHeight="122.0" fitWidth="130.0" layoutX="457.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/data%20panel%205.png" />
+            <Image url="@../../images/DashboardImages/employeeData.png" />
          </image>
       </ImageView>
       <Button layoutX="457.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#doOpenEmployeesData" prefHeight="26.0" prefWidth="122.0" text="Employees Data">
@@ -80,7 +80,7 @@
       </Button>
       <ImageView fitHeight="122.0" fitWidth="138.0" layoutX="25.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/images%201234.png" />
+            <Image url="@../../images/DashboardImages/OrdersStatus.png" />
          </image>
       </ImageView>
       <Button layoutX="22.0" layoutY="609.0" mnemonicParsing="false" onMouseClicked="#doOpenOrdersPanel" prefHeight="26.0" prefWidth="129.0" text="Orders Status">
@@ -90,7 +90,7 @@
       </Button>
       <ImageView fitHeight="122.0" fitWidth="138.0" layoutX="237.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../Downloads/qqw.jfif" />
+            <Image url="@../../images/DashboardImages/aboutdevelopers.jpeg" />
          </image>
       </ImageView>
       <Button layoutX="231.0" layoutY="609.0" mnemonicParsing="false" onMouseClicked="#doOpenDevelopers" prefHeight="26.0" prefWidth="129.0" text="About Developers">

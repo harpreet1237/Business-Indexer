@@ -11,7 +11,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-
+//Dashboard Updated
 public class DashBoarddViewwwController {
 
     @FXML // ResourceBundle that was given to the FXMLLoader
@@ -162,8 +162,7 @@ public class DashBoarddViewwwController {
     @FXML
     void doOpenDevelopers(MouseEvent event)
     {
-try
-        
+      try   
     	{
     	Parent root=FXMLLoader.load(getClass().getClassLoader().getResource("developers/DevelopersViewww.fxml")); 
 		Scene scene = new Scene(root);
