@@ -4,19 +4,15 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="526.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tablerecords.TableViewwwController">
+<AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="526.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tablerecords.TableViewwwController">
    <children>
       <Label prefHeight="39.0" prefWidth="542.0" text="                     CUSTOMER'S DISPLAY" textFill="#2705e7">
          <font>
             <Font name="Tahoma" size="25.0" />
          </font>
-         <effect>
-            <DropShadow />
-         </effect>
       </Label>
       <Label layoutX="54.0" layoutY="55.0" text="CITY">
          <font>

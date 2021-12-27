@@ -167,22 +167,6 @@ public class TablesViewwwController {
     	
     }
     
-   /* void doFillCombo()
-    {
-    	 try {
-   			pst=con.prepareStatement("select distinct dresses from employees");
-   			ResultSet table=pst.executeQuery();
-   			while(table.next())
-   			{
-   				String DR=table.getString("dresses");
-   				comboSD.getItems().add(DR);
-   				System.out.println(DR);
-   			}
-   		} catch (SQLException e) {
-   			// TODO Auto-generated catch block
-   			e.printStackTrace();
-     }
-    }*/
     
     Connection con;
     @FXML

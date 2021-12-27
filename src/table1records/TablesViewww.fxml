@@ -4,19 +4,15 @@
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="554.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="table1records.TablesViewwwController">
+<AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="554.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="table1records.TablesViewwwController">
    <children>
       <Label prefHeight="35.0" prefWidth="500.0" text="                   SPECIALIST DISPLAY" textFill="#ef0c0c">
          <font>
             <Font size="28.0" />
          </font>
-         <effect>
-            <DropShadow />
-         </effect>
       </Label>
       <ComboBox fx:id="comboSD" layoutX="26.0" layoutY="56.0" prefWidth="150.0" />
       <Button layoutX="198.0" layoutY="56.0" mnemonicParsing="false" onAction="#doShow" text="SHOW" />
