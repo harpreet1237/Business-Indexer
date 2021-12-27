@@ -21,18 +21,18 @@
       </Label>
       <ComboBox fx:id="comboOrderid" editable="true" layoutX="90.0" layoutY="98.0" prefWidth="150.0" />
       <Button layoutX="313.0" layoutY="98.0" mnemonicParsing="false" onAction="#doFetch" text="FETCH DATA" textFill="#e40909" />
-      <Label layoutX="90.0" layoutY="160.0" text="DRESS" textFill="#4f83cc">
+      <Label layoutX="59.0" layoutY="160.0" prefWidth="63.0" text="DRESS" textFill="#4f83cc">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="310.0" layoutY="160.0" text="AMOUNT" textFill="#4f83cc">
+      <Label layoutX="257.0" layoutY="160.0" text="AMOUNT" textFill="#4f83cc">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField fx:id="txtDress" layoutX="90.0" layoutY="190.0" promptText="dress" />
-      <TextField fx:id="txtAmount" layoutX="310.0" layoutY="190.0" promptText="amount" />
+      <TextField fx:id="txtDress" layoutX="62.0" layoutY="190.0" promptText="dress" />
+      <TextField fx:id="txtAmount" layoutX="257.0" layoutY="190.0" promptText="amount" />
       <Button layoutX="218.0" layoutY="262.0" mnemonicParsing="false" onAction="#doDelivery" text="DELIVERED" textFill="#e40909" />
    </children>
 </AnchorPane>

@@ -129,12 +129,6 @@ public class CustomerMeasurementViewController {
 		}
 	}
 
-	void showMsg2(String msg) {
-		Alert alert = new Alert(AlertType.CONFIRMATION);
-		alert.setTitle("Its Result");
-		alert.setContentText(msg);
-		alert.show();
-	}
 
 	private String valueOf(int newOid) {
 		return null;

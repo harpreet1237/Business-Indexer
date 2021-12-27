@@ -160,6 +160,8 @@ public class CustomerViewController {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		doReset();
+		doFill();
 		showMsg("Deleted successfully");
 	}
 
@@ -203,9 +205,10 @@ public class CustomerViewController {
 		showMsg("Updated successfully");
 
 	}
-
-	@FXML
-	void doRefresh(ActionEvent event) {
+	
+	
+	void doReset()
+	{
 		txtName.setText("");
 		txtAddress.setText("");
 		txtCity.setText("");
@@ -219,10 +222,26 @@ public class CustomerViewController {
 			radFemale.setSelected(false);
 		}
 	}
+	@FXML
+	void doRefresh(ActionEvent event) {
+		doReset();
+		doFill();
+	}
 
 	@FXML
 	void doRegister(ActionEvent event) {
 		try {
+			
+			pst=con.prepareStatement("select * from customers where contact=?");
+			pst.setString(1, comboCn.getEditor().getText());
+//			pst.executeQuery();
+			ResultSet table = pst.executeQuery();
+			
+			while(table.next())
+			{
+				showMsg("User already registered with this number.");
+				return;
+			}
 			pst = con.prepareStatement("insert into customers value(?,?,?,?,?,?,?,current_date(),?)");
 			pst.setString(1, comboCn.getEditor().getText());
 			pst.setString(2, txtName.getText());
@@ -249,6 +268,7 @@ public class CustomerViewController {
 	}
 
 	void doFill() {
+		comboCn.getEditor().clear();
 		try {
 			pst = con.prepareStatement("select distinct contact from customers");
 			ResultSet table = pst.executeQuery();

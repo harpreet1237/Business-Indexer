@@ -15,9 +15,12 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="750.0" style="-fx-background-image: #F0F8FF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customerpanel.CustomerViewController">
+<AnchorPane minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="750.0"  xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customerpanel.CustomerViewController">
    <children>
-      <ImageView fx:id="iv1" fitHeight="138.0" fitWidth="106.0" layoutX="410.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="iv1" fitHeight="138.0" fitWidth="106.0" layoutX="410.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/DashboardImages/aboutdevelopers.jpeg" />
+         </image></ImageView>
       <Label layoutY="-3.0" prefHeight="50.0" prefWidth="741.0" text="                        CUSTOMER PANEL">
          <font>
             <Font name="Tempus Sans ITC" size="35.0" />
@@ -97,11 +100,6 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <ImageView fitHeight="121.0" fitWidth="158.0" layoutX="598.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Downloads/tailor%20spell%20calligraphy%20picture%20-%20Google%20Search_files/8c185ff64c3d97deeeed14c45775cbc1.png" />
-         </image>
-      </ImageView>
       <Label layoutX="105.0" layoutY="310.0" text="City">
          <font>
             <Font size="20.0" />
