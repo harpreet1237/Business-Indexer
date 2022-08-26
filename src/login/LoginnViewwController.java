@@ -47,7 +47,7 @@ public class LoginnViewwController {
     	try { 
     		Parent root=FXMLLoader.load(getClass().getClassLoader().getResource("dashboard/DashBoarddViewww.fxml")); 
     		Scene scene = new Scene(root);
-    		//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+    		
     		Stage stage=new Stage();
     	    stage.setScene(scene);
     	    stage.show();
@@ -59,8 +59,9 @@ public class LoginnViewwController {
     	}else {
     		
     		showMsg("Invalid UserName or Password.");
-    	}
-            }
+    	 }
+	    
+        }
     
     void showMsg(String msg)
     {
